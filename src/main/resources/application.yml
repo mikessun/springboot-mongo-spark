@@ -1,0 +1,14 @@
+mongo:
+  host: localhost
+  database: spark-demo
+  collectionName: summary_data_ts
+  
+spark:
+  masterUri: local
+  inputUriName: spark.mongodb.input.uri
+  outputUriName: spark.mongodb.output.uri  
+  homeDir: 
+  
+  
+app:
+  name: SpringSparkMongoDemo  
